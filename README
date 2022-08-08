@@ -1,0 +1,17 @@
+Comprehensions:
+Comprehensions are used to write single line of code for creating list, dictionaries and sets.
+
+List comprehension reduces the number of line of code.
+For example: We have to create a list of 10 items.
+>>> list1
+[0, 1, 2, 3, 4, 5, 6, 7, 8, 9]
+
+
+list1 = []
+for i in range(0, 10):
+    list1.append(i)
+
+above 3 line of code can be written in single line using list comprehensions.
+list2 = [x for x in range(0, 10)]
+
+
