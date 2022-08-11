@@ -14,4 +14,20 @@ for i in range(0, 10):
 above 3 line of code can be written in single line using list comprehensions.
 list2 = [x for x in range(0, 10)]
 
+=========================================================================================
+
+Lambda Function: 
+A small function that can take any number of arguments, but we don't need to write a return to give a value.
+
+example
+Here lambda function return the sum of two arguments a and b.
+x = lambda a,b,c : a + b * c
+
+In this example calling lambda function needs three argument.
+x(2,3,6)
+
+If we put only 2 arguments we will get a TypeError:
+"TypeError: <lambda>() missing 1 required positional argument: 'c'"
+
+Footer
 
